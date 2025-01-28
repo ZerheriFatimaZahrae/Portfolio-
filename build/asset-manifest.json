@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1440df5b.css",
-    "main.js": "/static/js/main.900149b6.js",
+    "main.css": "/static/css/main.866bd383.css",
+    "main.js": "/static/js/main.8c057fb4.js",
     "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
     "static/media/my-img.jpg": "/static/media/my-img.93d918a7a69c22803a70.jpg",
     "static/media/about-img.jpg": "/static/media/about-img.258dfff63b9bb330ea5d.jpg",
     "static/media/Zerheri-Fatima-zahrae-Resume.pdf": "/static/media/Zerheri-Fatima-zahrae-Resume.66866895095e621d03ae.pdf",
     "index.html": "/index.html",
-    "main.1440df5b.css.map": "/static/css/main.1440df5b.css.map",
-    "main.900149b6.js.map": "/static/js/main.900149b6.js.map",
+    "main.866bd383.css.map": "/static/css/main.866bd383.css.map",
+    "main.8c057fb4.js.map": "/static/js/main.8c057fb4.js.map",
     "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1440df5b.css",
-    "static/js/main.900149b6.js"
+    "static/css/main.866bd383.css",
+    "static/js/main.8c057fb4.js"
   ]
 }

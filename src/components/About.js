@@ -15,7 +15,7 @@ const About = () => {
                         and responsive frontend interfaces.
                     </p>
                     <div className="skills-list">
-                        <h3>Technical Arsenal:</h3>
+                        <h3>Skills :</h3>
                         <ul>
                             <li>📊 Data Science: Python, Pandas, TensorFlow, SQL, Big Data Processing</li>
                             <li>☕ Java Fullstack: Spring Boot, Hibernate, Microservices, REST APIs</li>

@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutImage from '../assets/about-img.jpg'; // Adjust the image path
+
+import profileImage from "../assets/about-img.jpg"; // Adjust the image path
 
 const About = () => {
     return (
@@ -10,7 +11,8 @@ const About = () => {
                     <p>
                         I'm a hybrid technologist with dual expertise in Data Science and Fullstack Java Development.
                         With a strong foundation in machine learning pipelines and data engineering, I build intelligent
-                        systems that leverage big data insights. Simultaneously, I architect robust enterprise applications
+                        systems that leverage big data insights. Simultaneously, I architect robust enterprise
+                        applications
                         using Java ecosystem technologies, ensuring seamless integration between data-driven backends
                         and responsive frontend interfaces.
                     </p>
@@ -24,11 +26,15 @@ const About = () => {
                         </ul>
                     </div>
                 </div>
-                <img
-                    src={aboutImage}
-                    alt="About Me Visual"
-                    className="about-image"
-                />
+
+                <div className="image-container">
+                    <img
+                        src={profileImage}
+                        alt="About Me Visual"
+                        className="profile-img"
+                    />
+
+                </div>
             </div>
         </section>
     );

@@ -111,45 +111,81 @@ input, textarea {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  min-height: 100vh; /* Ensure section takes full viewport height */
 }
 
 .home-content {
   display: flex;
-  align-items: center;
-  gap: 4rem;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text content */
+  gap: 2rem;
   max-width: 1200px;
   width: 100%;
 }
 
 .text-content {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center child elements */
 }
 
+/* Optional: Add margin to elements for better spacing */
+.text-content h1,
+.text-content h2,
+.text-content h3 {
+  margin: 0.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  /* Add your button styling here */
+}
+/* CSS modifié pour l'image ronde */
 .image-container {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center; /* Ajout pour meilleur centrage */
 }
 
 .profile-img {
-  max-width: 400px;
-  margin-top: 45px;
-  width: 100%;
-  height: 470px; /* Ajout de la hauteur fixe */
-  object-fit: cover; /* Conserve les proportions */
+  width: 250px; /* Taille de base */
+  height: 250px; /* Carré parfait */
+  object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border: 4px solid #e0e0e0; /* Bordure subtile */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15); /* Ombre plus douce */
+  transition: transform 0.3s ease; /* Animation au survol */
 }
 
-/* Responsive design */
-@media (max-width: 508px) {
-  .home-content {
-    flex-direction: column;
-    text-align: center;
+.profile-img:hover {
+  transform: scale(1.03); /* Effet zoom léger au survol */
+}
+
+/* Responsive design amélioré */
+@media (max-width: 568px) {
+  .about-content {
+    flex-direction: column-reverse; /* Image en haut sur mobile */
+    gap: 30px;
   }
 
   .profile-img {
-    max-width: 250px;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+
+  .skills-list {
+    text-align: left; /* Alignement cohérent */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-img {
+    width: 200px;
+    height: 200px;
   }
 }
 

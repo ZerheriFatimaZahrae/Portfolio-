@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
-import profileImage from '../assets/my-img.jpg'; // Import de l'image
+
 import cvPdf from '../assets/Zerheri-Fatima-zahrae-Resume-dev.pdf';
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
             <div className="home-content">
                 <div className="text-content">
                     <h3>Hi There!</h3>
-                    <h1>Fatima Zahrae Zerheri</h1>
+                    <h1>I'm Fatima Zahrae Zerheri</h1>
                     <h2>
                         <Typewriter
                             options={{
@@ -24,13 +24,7 @@ const Home = () => {
                         Download CV
                     </a>
                 </div>
-                <div className="image-container">
-                    <img
-                        src={profileImage}
-                        alt="Fatima Zahrae Zerheri"
-                        className="profile-img"
-                    />
-                </div>
+
             </div>
         </section>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
 import profileImage from '../assets/my-img.jpg'; // Import de l'image
-import cvPdf from '../assets/Zerheri-Fatima-zahrae-Resume.pdf';
+import cvPdf from '../assets/Zerheri-Fatima-zahrae-Resume-dev.pdf';
 
 const Home = () => {
     return (
